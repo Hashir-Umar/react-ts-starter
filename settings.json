@@ -1,0 +1,23 @@
+{
+    "git.suggestSmartCommit": false,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "prettier.singleQuote": true,
+    "emmet.includeLanguages": { "javascript": "javascriptreact" },
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "emmet.excludeLanguages": ["markdown"],
+    "workbench.iconTheme": "material-icon-theme",
+    "json.schemas": [],
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "tabnine.experimentalAutoImports": true,
+    "editor.fontSize": 15,
+    "liveshare.authenticationProvider": "GitHub",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "window.zoomLevel": 1,
+    "prettier.configPath": ".prettierrc.json"
+}

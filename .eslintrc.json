@@ -1,0 +1,32 @@
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "project": "./tsconfig.json",
+        "sourceType": "module",
+        "ecmaVersion": 2020, // Allows for the parsing of modern JS
+        "ecmaFeatures": {
+            "jsx": true // Allows for the parsing of JSX
+        }
+    },
+
+    "extends": ["airbnb-typescript", "plugin:prettier/recommended", "plugin:import/recommended"],
+    "rules": {
+        "react/no-danger": "off", // it's self explainatory that no-danger should be used sparingly
+        "react/prop-types": "off", // as long as TS strict mode is off this is not required
+        "no-console": "error", // no console statements allowed
+        "prettier/prettier": "off", // don't show prettier errors as it will be fixed when saved anyway
+        "react/jsx-filename-extension": "off",
+        "@typescript-eslint/no-use-before-define": "off"
+    },
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
+    "env": {
+        "node": true,
+        "browser": true,
+        "amd": true
+    }
+}
