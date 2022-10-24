@@ -4,12 +4,12 @@
     "parserOptions": {
         "project": "./tsconfig.json",
         "sourceType": "module",
+        "tsconfigRootDir": "./",
         "ecmaVersion": 2020, // Allows for the parsing of modern JS
         "ecmaFeatures": {
             "jsx": true // Allows for the parsing of JSX
         }
     },
-
     "extends": ["airbnb-typescript", "plugin:prettier/recommended", "plugin:import/recommended"],
     "rules": {
         "react/no-danger": "off", // it's self explainatory that no-danger should be used sparingly
